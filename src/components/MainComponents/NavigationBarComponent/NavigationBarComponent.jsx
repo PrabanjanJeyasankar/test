@@ -36,6 +36,12 @@ function NavigationBarComponent() {
         }
     }, [])
 
+    const handleKeyDown = (event, toggleMenu) => {
+        if (event.key === 'Enter' || event.key === ' ') {
+            toggleMenu()
+        }
+    }
+
     return (
         <header ref={navbarRef} className={navBarStyles.header}>
             <Link to='/' className={navBarStyles.logo}>
@@ -54,14 +60,16 @@ function NavigationBarComponent() {
                 </div>
             </Link>
 
-            <div
+            <button
                 className={`${navBarStyles.hamburger} ${
                     isMenuOpen ? navBarStyles.active : ''
                 }`}
-                onClick={toggleMenu}>
+                onClick={toggleMenu}
+                aria-expanded={isMenuOpen}
+                aria-label='Toggle navigation menu'>
                 <span className={navBarStyles.line}></span>
                 <span className={navBarStyles.line}></span>
-            </div>
+            </button>
 
             <nav
                 className={`${navBarStyles.navigation_bar} ${
