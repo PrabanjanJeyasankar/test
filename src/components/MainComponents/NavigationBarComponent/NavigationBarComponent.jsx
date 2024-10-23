@@ -67,8 +67,8 @@ function NavigationBarComponent() {
                 onClick={toggleMenu}
                 aria-expanded={isMenuOpen}
                 aria-label='Toggle navigation menu'>
-                <span className={navBarStyles.line}></span>
-                <span className={navBarStyles.line}></span>
+                <span className={navBarStyles.line} />
+                <span className={navBarStyles.line} />
             </button>
 
             <nav

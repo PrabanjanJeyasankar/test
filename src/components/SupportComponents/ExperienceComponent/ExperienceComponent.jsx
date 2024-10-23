@@ -35,7 +35,7 @@ function ExperienceComponent() {
                             </p>
                             <p className={expStyles.role}>{experience.role}</p>
                             <p className={expStyles.responsibilities}>
-                                <span></span>Responsibilities:{' '}
+                                <span></span>Responsibilities:
                                 {experience.responsibilities}
                             </p>
                             <p className={expStyles.impact}>

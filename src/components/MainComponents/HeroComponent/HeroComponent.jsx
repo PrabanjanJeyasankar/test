@@ -20,7 +20,7 @@ function HeroComponent() {
                         isVisible ? heroStyles.visible : ''
                     }`}>
                     <div className={heroStyles.availability}>
-                        <span className={heroStyles.available_indicator}></span>
+                        <span className={heroStyles.available_indicator} />
                         <strong>Available for freelance</strong>
                     </div>
                     <div className={heroStyles.hero_name}>

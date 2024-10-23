@@ -12,8 +12,8 @@ function DownloadCVComponent() {
             <button
                 className={downloadCVStyles.space_button}
                 onClick={handleRedirect}>
-                <span className={downloadCVStyles.backdrop}></span>
-                <span className={downloadCVStyles.galaxy}></span>
+                <span className={downloadCVStyles.backdrop} />
+                <span className={downloadCVStyles.galaxy} />
                 <span className={downloadCVStyles.text}>
                     <span>Resume</span>
                     <svg

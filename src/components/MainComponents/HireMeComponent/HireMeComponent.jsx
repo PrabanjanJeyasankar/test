@@ -13,7 +13,6 @@ function HireMeComponent() {
                     (And don&apos;t worry—I don&apos;t push .env to Git.)
                 </span>
             </p>
-            <div className={hireMeStyles.download_cv_button}></div>
             <DownloadCVComponent />
         </div>
     )
