@@ -1,0 +1,33 @@
+/* #root {
+    max-width: 1400px;
+    min-width: 320px;
+    margin: 1.3rem auto;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+* {
+    -ms-overflow-style: none; 
+    scrollbar-width: none;
+}
+
+*::-webkit-scrollbar {
+    display: none; 
+}
+
+@media (max-width: 1440px) {
+    #root {
+        max-width: 1200px;
+        min-width: 320px;
+        margin: 1.3rem auto;
+      
+    }
+} */
+
+/* #fixed {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1000;
+} */

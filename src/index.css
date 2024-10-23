@@ -1,0 +1,130 @@
+html, body {
+    height: 100%;
+    margin: 0;
+    overflow-x: hidden;
+    overflow-y: scroll;
+}
+
+#root {
+    max-width: 1400px;
+    min-width: 320px;
+    margin: 1.3rem auto;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+* {
+    -ms-overflow-style: none; /* Internet Explorer 10+ */
+    scrollbar-width: none; /* Firefox */
+}
+
+*::-webkit-scrollbar {
+    display: none; /* Safari and Chrome */
+}
+
+@media (max-width: 1440px) {
+    #root {
+        max-width: 1200px;
+        min-width: 320px;
+        margin: 1.3rem auto;
+    }
+}
+
+.scrollbar-track-y {
+    width: 0px !important;
+}
+
+:root {
+    font-synthesis: none;
+    text-rendering: optimizeLegibility;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    background-color: black;
+    color: white;
+    font-family: 'Inter';
+    --gray-100: #f5f5f5;
+    --gray-150: #eaeaea;
+    --gray-200: #e0e0e0;
+    --gray-250: #d6d6d6;
+    --gray-300: #cccccc;
+    --gray-350: #c2c2c2;
+    --gray-400: #b8b8b8;
+    --gray-450: #aeaeae;
+    --gray-500: #a3a3a3;
+    --gray-550: #999999;
+    --gray-600: #8f8f8f;
+    --gray-650: #858585;
+    --gray-700: #7a7a7a;
+    --gray-750: #707070;
+    --gray-800: #666666;
+    --gray-850: #5c5c5c;
+    --gray-900: #525252;
+}
+
+html {
+    scroll-behavior: smooth;
+    overflow-x: hidden;
+}
+
+@font-face {
+    font-family: 'Inter';
+    font-weight: 100;
+    font-style: normal;
+    src: url('./assets/fonts/Inter-Thin.woff2') format('woff2');
+}
+
+@font-face {
+    font-family: 'Inter';
+    font-weight: 200;
+    font-style: normal;
+    src: url('./assets/fonts/Inter-ExtraLight.woff2') format('woff2');
+}
+
+@font-face {
+    font-family: 'Inter';
+    font-weight: 300;
+    font-style: normal;
+    src: url('./assets/fonts/Inter-Light.woff2') format('woff2');
+}
+
+@font-face {
+    font-family: 'Inter';
+    font-weight: 400;
+    font-style: normal;
+    src: url('./assets/fonts/Inter-Regular.woff2') format('woff2');
+}
+
+@font-face {
+    font-family: 'Inter';
+    font-weight: 500;
+    font-style: normal;
+    src: url('./assets/fonts/Inter-Medium.woff2') format('woff2');
+}
+
+@font-face {
+    font-family: 'Inter';
+    font-weight: 600;
+    font-style: normal;
+    src: url('./assets/fonts/Inter-SemiBold.woff2') format('woff2');
+}
+
+@font-face {
+    font-family: 'Inter';
+    font-weight: 700;
+    font-style: normal;
+    src: url('./assets/fonts/Inter-Bold.woff2') format('woff2');
+}
+
+@font-face {
+    font-family: 'Inter';
+    font-weight: 800;
+    font-style: normal;
+    src: url('./assets/fonts/Inter-ExtraBold.woff2') format('woff2');
+}
+
+@font-face {
+    font-family: 'Inter';
+    font-weight: 900;
+    font-style: normal;
+    src: url('./assets/fonts/Inter-Black.woff2') format('woff2');
+}
